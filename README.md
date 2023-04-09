@@ -1,5 +1,6 @@
 # OS-Simulation-CA
 The goal is to implement and simulate bankers algorithm using multithreading, by only assigning resources by a process if it results in a safe state. Mutex locks are also used to ensure safe access to the shared data.
+
 Note: Run the program in an empty directory for better creation of files and delete the files created before every execution.
 1.	Getting data from the user regarding total number of processes, resources,  total available resources for each resource and currently allocated resources for each process.
 2.	Check if the current table results in a safe state or not, if it is in a safe state, based on bankers algorithm all the processes ie, threads start running requesting for resources.
