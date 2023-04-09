@@ -162,6 +162,8 @@ public class Ca {
             }
         }
         
+        System.out.println("It is in a safe state");
+        pw.println("It is in a safe state");
         System.out.print("The safe sequence is: ");
         System.out.println(Arrays.toString(safeSeq));
         System.out.println();
